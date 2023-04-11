@@ -52,6 +52,9 @@ function Navbar() {
           <li className="p-4">
             <Link href="/#contact">Kontakt</Link>
           </li>
+          <li className="p-4">
+            <Link href="/#attendance">Påmelding</Link>
+          </li>
         </ul>
 
         <div onClick={handleNav} className="block sm:hidden z-10">
@@ -81,6 +84,9 @@ function Navbar() {
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#contact">Kontakt</Link>
+            </li>
+            <li className="p-4 text-4xl hover:text-gray-500">
+              <Link href="/#attendance">Påmelding</Link>
             </li>
           </ul>
         </div>

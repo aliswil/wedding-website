@@ -15,6 +15,12 @@ module.exports = {
       display: ["Raleway", ...defaultTheme.fontFamily.sans],
       mark: ["Marck Script"],
     },
+    extend: {
+      backgroundImage: (theme) => ({
+        "bg-bigscreen": "url('/1.jpeg')",
+        "bg-mobile": "url('/2.jpeg')",
+      }),
+    },
   },
   plugins: [],
 };
