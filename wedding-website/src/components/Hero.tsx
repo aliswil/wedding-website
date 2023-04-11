@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover bg-bg-mobile sm:bg-bg-bigscreen">
+    <div className="flex items-center justify-center h-screen object-scale-down bg-center bg-bg-mobile sm:bg-bg-bigscreen">
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]" />
       <div className="p-5 text-white z-[2]  mt-[-10rem]">
         <h2 className=" text-7xl font-bold font-mark">Henriette og Sivert</h2>
@@ -23,3 +23,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+//<div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover bg-bg-mobile sm:bg-bg-bigscreen">
