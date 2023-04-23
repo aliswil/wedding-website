@@ -7,6 +7,8 @@ import History from "@/components/History";
 import Info from "@/components/Info";
 import Footer from "@/components/Footer";
 import Attendance from "@/components/Attendance";
+import Contact from "@/components/Contact";
+import Giftlist from "@/components/Giftlist";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +34,9 @@ export default function Home() {
       <Hero />
       <History />
       <Info />
+      <Giftlist />
       <Attendance />
+      <Contact />
       <Footer />
     </div>
   );

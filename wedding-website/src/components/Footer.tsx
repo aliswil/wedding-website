@@ -7,7 +7,7 @@ function Footer() {
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div className="flex items-center mb-4 sm:mb-0">
-            <span className="self-center text-2xl font-mark whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-display whitespace-nowrap dark:text-white">
               Vi gleder oss!
             </span>
           </div>

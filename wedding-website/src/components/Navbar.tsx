@@ -29,11 +29,11 @@ function Navbar() {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className=" m-auto flex justify-between items-center p-4 text-white">
+      <div className="m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <h1
             style={{ color: `${textColor}` }}
-            className="font-bold text-4xl font-mark"
+            className="text-4xl font-display"
           >
             H&S
           </h1>
@@ -53,10 +53,13 @@ function Navbar() {
             <Link href="/#info">Praktisk info</Link>
           </li>
           <li className="p-4">
-            <Link href="/#contact">Kontakt</Link>
+            <Link href="/#giftlist">Gaveønske</Link>
           </li>
           <li className="p-4">
             <Link href="/#attendance">Påmelding</Link>
+          </li>
+          <li className="p-4">
+            <Link href="/#contact">Kontakt</Link>
           </li>
         </ul>
 
@@ -86,10 +89,13 @@ function Navbar() {
               <Link href="/#info">Praktisk info</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/#contact">Kontakt</Link>
+              <Link href="/#giftlist">Gaveønske</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#attendance">Påmelding</Link>
+            </li>
+            <li className="p-4 text-4xl hover:text-gray-500">
+              <Link href="/#contact">Kontakt</Link>
             </li>
           </ul>
         </div>
