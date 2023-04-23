@@ -19,6 +19,7 @@ module.exports = {
       backgroundImage: (theme) => ({
         "bg-bigscreen": "url('/1.jpeg')",
         "bg-mobile": "url('/2.jpeg')",
+        "bg-mobile-attendance": "url('/6.jpeg')",
       }),
     },
   },

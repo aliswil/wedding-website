@@ -5,8 +5,9 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="flex items-center justify-center h-full bg-[#edead8] pt-10"
+      className="bg-[#edead8] pt-10"
     >
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex items-center justify-center ">
         <div className="text-gray-600 z-[2] pt-10 pb-20 m-3.5">
         <h2 className=" text-6xl sm:text-7xl font-light font-display pb-5">
           Toastmaster og kontakt
@@ -24,9 +25,12 @@ function Contact() {
         
 </p>
 </div>
+</div>
        
     </div>
   );
 }
 
 export default Contact;
+
+

@@ -8,10 +8,11 @@ function History() {
   return (
     <div
       id="history"
-      className="flex items-center justify-center h-full bg-[#EDEDE9]"
+      className="bg-[#EDEDE9]"
     >
+      <div className="w-full max-w-screen-sm mx-auto p-4 md:py-8 flex items-center justify-center">
       <div className="p-5 text-gray-600 z-[2] pt-20 pb-20">
-        <h2 className=" text-7xl font-display pb-10">Litt historie</h2>
+        <h2 className=" text-6xl sm:text-7xl font-display pb-10">Litt historie</h2>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -116,6 +117,7 @@ function History() {
             />
           </li>
         </ol>
+      </div>
       </div>
     </div>
   );

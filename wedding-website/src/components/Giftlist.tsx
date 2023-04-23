@@ -5,8 +5,9 @@ function Giftlist() {
   return (
     <div
       id="giftlist"
-      className="flex items-center justify-center h-full bg-[#efe8db] pt-20"
+      className="bg-[#efe8db] pt-20"
     >
+        <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex items-center justify-center" >
         <div className="text-gray-600 z-[2] pt-20 pb-20 m-3.5">
         <h2 className=" text-6xl sm:text-7xl font-light font-display">
           Gaveønsker
@@ -16,7 +17,7 @@ function Giftlist() {
         <p className="py-5 text-xl font-display">Et vipps-nummer vil bli gitt til dagen.
 </p>    
 </div>
-       
+       </div>
     </div>
   );
 }
