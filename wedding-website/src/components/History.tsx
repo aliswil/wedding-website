@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import historiebryllupet from "../../public/historiebryllupet.jpeg";
-import historiehallopådo from "../../public/historiehallopådo.jpeg";
-import historievoldaivårehjerter from "../../public/historievoldaivårehjerter.jpeg";
+import historiehallopaado from "../../public/historiehallopaado.jpeg";
+import historievoldaivaarehjerter from "../../public/historievoldaivaarehjerter.jpeg";
 
 function History() {
   return (
@@ -43,7 +43,7 @@ function History() {
             </p>
             <Image
               className="object-scale-down md:h-auto md:max-w-lg"
-              src={historievoldaivårehjerter}
+              src={historievoldaivaarehjerter}
               alt=""
               layout=""
               objectFit=""
@@ -84,7 +84,7 @@ function History() {
             </p>
             <Image
               className="object-scale-down md:h-auto md:max-w-lg"
-              src={historiehallopådo}
+              src={historiehallopaado}
               alt=""
               layout=""
               objectFit=""

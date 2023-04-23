@@ -47,9 +47,6 @@ function Navbar() {
             <Link href="/#history">Historie</Link>
           </li>
           <li className="p-4">
-            <Link href="/#program">Program</Link>
-          </li>
-          <li className="p-4">
             <Link href="/#info">Praktisk info</Link>
           </li>
           <li className="p-4">
@@ -81,9 +78,6 @@ function Navbar() {
           <ul>
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#history">Historie</Link>
-            </li>
-            <li className="p-4 text-4xl hover:text-gray-500">
-              <Link href="/#program">Program</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500">
               <Link href="/#info">Praktisk info</Link>
