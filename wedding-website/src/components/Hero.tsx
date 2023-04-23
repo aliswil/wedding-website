@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <div className="flex items-center sm:justify-start justify-center sm:pl-32 h-screen bg-cover bg-center bg-bg-mobile sm:bg-bg-bigscreen ">
       <div className="absolute top-0 left-0 right-0 h-screen bottom-0 bg-black/70 z-[2]" />
-      <div className="p-5 text-white z-[2] mt-[-10rem]">
+      <div className="p-5 text-white z-[2] mt-[-10rem] pt-10">
         <h2 className="text-7xl sm:text-8xl font-display">
           Henriette og Sivert
         </h2>
