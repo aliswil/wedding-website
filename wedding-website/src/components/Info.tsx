@@ -5,10 +5,10 @@ function Info() {
   return (
     <div
       id="info"
-      className="bg-[#e2ddd6] pt-28"
+      className="bg-[#e2ddd6] pt-20"
     >
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex items-center justify-center ">
-      <div className=" text-gray-600 z-[2] pt-20 m-3.5">
+      <div className=" text-gray-600 z-[2] m-3.5">
         <h2 className=" text-6xl sm:text-7xl font-light font-display">Overnatting</h2>
         <p className="py-5 text-xl font-display">For deg som ikke har funnet overnatting kan denne siden være til hjelp. Minner om 15% på hotellrom på Hotell Terminus. Minner også om at prisen stiger jo nærmere datoen vi kommer. Oppdatering fra hotellet sier også at hotellet begynner bli mer eller mindre fullt denne helgen. Zander K (du finner mer info  i lenkene under), ligger bare et steinkast fra hotellet og kan være et godt alternativ i nærheten. Ta kontakt om du har problem med overnatting! 
 </p>  
