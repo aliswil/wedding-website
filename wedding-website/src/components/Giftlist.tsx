@@ -1,5 +1,9 @@
 import React from "react";
 
+
+import Image from "next/image";
+import wakay from "../../public/wakay.jpg";
+
 function Giftlist() {
 
   return (
@@ -16,6 +20,13 @@ function Giftlist() {
 </p>        
         <p className="py-5 text-xl font-display">Et vipps-nummer vil bli gitt til dagen.
 </p>    
+<Image
+              className=""
+              src={wakay}
+              alt=""
+              layout=""
+              objectFit=""
+            />
 </div>
        </div>
     </div>
