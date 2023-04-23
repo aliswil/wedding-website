@@ -15,10 +15,10 @@ function Contact() {
         <p className="py-5 text-xl font-display">Lars Arne Nilsen (Siverts far) stiller som toastmaster og da kan alt skje. Hvis du ønsker å ha innflytelse på programmet og kanskje si et ord eller to i form av tale eller annet, kan du ta kontakt med Henriettes forlover og søster, Oline Gauteplass Rygg. Hun kan nåes på Facebook eller på telefon 90402273. 
 
 </p>
-        <h3 className="py-5 text-xl font-display"><p className=" font-bold">Spørsmål på selve bryllupsdagen rettes til brudeparets forlovere: </p> Henriettes forlovere: Oline Gauteplass Rygg (90402273) og Amalie Frøystad Delebekk (41495549).
-
+        <h3 className="pt-5 text-xl font-display font-bold">Spørsmål på selve bryllupsdagen rettes til brudeparets forlovere: </h3> 
+<h3 className="py-2 text-xl font-display"> Henriettes forlovere: Oline Gauteplass Rygg (90402273) og Amalie Frøystad Delebekk (41495549).
 </h3>  
-        <p className="py-5 text-xl font-display">Siverts forlovere: Ola Heltne Nilsen (47614525), Stig Bjørneset (91538856) og Nikolai Engeset (98488505).  
+        <p className="pt-2 pb-10 text-xl font-display">Siverts forlovere: Ola Heltne Nilsen (47614525), Stig Bjørneset (91538856) og Nikolai Engeset (98488505).  
         
 </p>     
  <p className="py-5 text-xl font-display">I forkant av bryllupet kan Sivert og Henriette kontaktes på Facebook eller telefon.   

@@ -5,11 +5,11 @@ function Attendance() {
   return (
     <div
       id="attendance"
-      className="bg-cover bg-center bg-bg-mobile-attendance sm:bg-bg-bigscreen sm:pt-28"
+      className="bg-cover bg-center bg-bg-mobile-attendance sm:bg-bg-bigscreen py-28"
     >
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8 flex items-center justify-center">
       
-      <div className="text-gray-800 z-[2] pb-20 m-3.5 bg-[#efe8db]/80 p-5">
+      <div className="text-gray-600 z-[2] pb-20 m-3.5 bg-[#efe8db]/80 p-5">
         <h2 className=" text-6xl sm:text-7xl font-light font-display ">
           Klikk her for å melde fra om du kommer:
         </h2>

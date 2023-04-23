@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import Attendance from "@/components/Attendance";
 import Contact from "@/components/Contact";
 import Giftlist from "@/components/Giftlist";
+import Dresscode from "@/components/Dresscode";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +35,7 @@ export default function Home() {
       <Hero />
       <History />
       <Info />
+      <Dresscode />
       <Giftlist />
       <Attendance />
       <Contact />
