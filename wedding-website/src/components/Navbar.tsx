@@ -50,6 +50,9 @@ function Navbar() {
             <Link href="/#info">Praktisk info</Link>
           </li>
           <li className="p-4">
+            <Link href="/#program">Program</Link>
+          </li>
+          <li className="p-4">
             <Link href="/#giftlist">Gaveønske</Link>
           </li>
           <li className="p-4">
@@ -81,6 +84,9 @@ function Navbar() {
             </li>
             <li className="p-4 text-4xl hover:text-gray-500 font-display">
               <Link href="/#info">Praktisk info</Link>
+            </li>
+            <li className="p-4 text-4xl hover:text-gray-500 font-display">
+              <Link href="/#program">Program</Link>
             </li>
             <li className="p-4 text-4xl hover:text-gray-500 font-display">
               <Link href="/#giftlist">Gaveønske</Link>

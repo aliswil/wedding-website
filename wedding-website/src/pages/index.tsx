@@ -10,6 +10,7 @@ import Attendance from "@/components/Attendance";
 import Contact from "@/components/Contact";
 import Giftlist from "@/components/Giftlist";
 import Dresscode from "@/components/Dresscode";
+import Program from "@/components/Program";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function Home() {
       <Hero />
       <History />
       <Info />
+      <Program />
       <Dresscode />
       <Giftlist />
       <Attendance />
