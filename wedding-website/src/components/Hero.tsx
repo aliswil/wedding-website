@@ -5,7 +5,7 @@ const Hero = () => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push("/#attendance");
+    router.push("/#program");
   };
 
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
         <p className="py-3 text-4xl font-display pt-8">17. juni 2023</p>
         <div className="pt-52 text-4xl font-display flex justify-center sm:justify-start">
           <button className="px-8 py-3 border sm:w-full" onClick={handleClick}>
-            Påmelding
+            Program
           </button>
         </div>
       </div>
